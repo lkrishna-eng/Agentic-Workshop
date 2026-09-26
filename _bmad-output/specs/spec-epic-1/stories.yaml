@@ -1,0 +1,18 @@
+- id: "1"
+  title: Define and validate the triage decision schema
+  description: >-
+    Define the supported category, priority, route, and rationale fields for a
+    triage decision and reject any unsupported shape with a clear error.
+  spec_checkpoint: false
+  done_checkpoint: false
+  invoke_dev_with: ""
+
+- id: "2"
+  title: Build the deterministic seed data loader
+  description: >-
+    Load seed/tickets.csv and seed/customers.csv into app.db as the tickets and
+    customers SQLite tables with matching columns, repeatably and without
+    changing the read-only seed files.
+  spec_checkpoint: false
+  done_checkpoint: false
+  invoke_dev_with: ""
